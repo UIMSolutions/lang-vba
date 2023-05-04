@@ -1,22 +1,26 @@
 {
-	"description": "A minimal D application.",
-	"license": "proprietary",
-	"name": "uim-vba",
-	"authors": [ "UI Manufaktur Team"	],
-	"copyright": "Copyright © 2017-2022, UI Manufaktur UG",
-	"license": "Apache-2.0",
+	"name": "lang-vbas",
+	"description": "D library for Fortran projects",
+  "authors": [
+    "Sicherheitsschmiede",
+    "Ozan Nurettin Süel"
+  ],
+  "copyright": "Copyright © 2015-2023, Ozan Nurettin Süel",	
+  "license": "Apache-2.0",
 	"targetType": "library",
 	"dependencies": {
-		"vibe-d": "~>0.9.4"
-  },
-  "sourcePaths": [
-    "../uim-core",
-    "../uim-oop",
-		"./"
-  ],
-  "importPaths": [
-    "../uim-core",
-    "../uim-oop",
-    "./"
-  ]
+			"vibe-d": "~>0.9.6"
+	},
+	"sourcePaths": [
+			"../../LIBS/uim-core",
+			"../../LIBS/uim-oop",
+			"../../LIBS/uim-compilers",
+			"./"
+	],
+	"importPaths": [
+			"../../LIBS/uim-core",
+			"../../LIBS/uim-oop",
+			"../../LIBS/uim-compilers",
+			"./"
+	]
 }
